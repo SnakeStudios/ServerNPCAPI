@@ -20,15 +20,12 @@
         </plugins>
     </build>
 
-
-    <distributionManagement>
+    <repositories>
         <repository>
-            <id>github</id>
-            <name>GitHub SnakeStudios Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/SnakeStudios/ServerNPC-API</url>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
         </repository>
-    </distributionManagement>
-
+    </repositories>
 
     <dependencies>
         <!--Spigot-API-->
