@@ -33,7 +33,7 @@ dependencies {
 }
 ```
 
-Examples
+### Examples
 ```java
 //Name of the NPC || 16 length longer.
 String name = "testNPC";
