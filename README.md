@@ -1,22 +1,36 @@
 # ServerNPC-API
 
-### Add this to your pom
+### Maven
+Add this to your `pom.xml`
 
-Repository
 ```xml
-<repository>
-    <id>jitpack.io</id>
-    <url>https://jitpack.io</url>
-</repository>
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependencies>
+    <dependency>
+        <groupId>com.github.SnakeStudios</groupId>
+        <artifactId>ServerNPCAPI</artifactId>
+        <version>v1.0.1</version>
+    </dependency>
+</dependencies>
 ```
 
-Dependency
-```xml
-<dependency>
-    <groupId>com.github.SnakeStudios</groupId>
-    <artifactId>ServerNPCAPI</artifactId>
-    <version>v1.0.1</version>
-</dependency>
+### Gradle
+Add this to your `build.gradle`
+
+```gradle
+repositories {
+    maven { url = 'https://jitpack.io' }
+}
+
+dependencies {
+    compile('com.github.SnakeStudios:ServerNPCAPI:v1.0.1')
+}
 ```
 
 Examples
