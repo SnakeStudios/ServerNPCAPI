@@ -3,7 +3,7 @@
 ### Add this to your pom
 
 Repository
-```
+```xml
 <repository>
     <id>jitpack.io</id>
     <url>https://jitpack.io</url>
@@ -11,7 +11,7 @@ Repository
 ```
 
 Dependency
-```
+```xml
 <dependency>
     <groupId>com.github.SnakeStudios</groupId>
     <artifactId>ServerNPCAPI</artifactId>
