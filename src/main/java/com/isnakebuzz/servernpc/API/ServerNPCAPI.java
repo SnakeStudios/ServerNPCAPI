@@ -6,6 +6,7 @@ import com.isnakebuzz.servernpc.NPC.Utilities.NPCSettings;
 import com.isnakebuzz.servernpc.Skins.SkinData;
 import org.bukkit.Location;
 
+import java.util.List;
 import java.util.UUID;
 
 public interface ServerNPCAPI {
@@ -38,4 +39,18 @@ public interface ServerNPCAPI {
      */
     SnakeNPC createNPC(String name, UUID uuid, NPCSettings npcSettings, String skinName, Location location, SnakeHologram hologram) throws Exception;
 
+    /**
+     * Get a list of NPC in a location.
+     *
+     * @param location Location of the NPCs
+     * @return SnakeNPC
+     */
+    List<SnakeNPC> getNPCSAtLocation(Location location);
+
+    /**
+     * Get all loaded NPCs.
+     *
+     * @return List of a SnakeNPCs
+     */
+    List<SnakeNPC> getNPCList();
 }

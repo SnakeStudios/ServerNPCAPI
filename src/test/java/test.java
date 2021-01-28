@@ -27,7 +27,6 @@ public class test {
 
         // Creating the NPC || It returns SnakeNPC if you need it.
         Main.getAPI().createNPC(name, uuid, npcSettings, skinData, loc, null);
-
     }
 
 }

@@ -15,7 +15,7 @@ Add this to your `pom.xml`
     <dependency>
         <groupId>com.github.SnakeStudios</groupId>
         <artifactId>ServerNPCAPI</artifactId>
-        <version>v1.0.1</version>
+        <version>v1.0.2</version>
     </dependency>
 </dependencies>
 ```
@@ -29,7 +29,7 @@ repositories {
 }
 
 dependencies {
-    compile('com.github.SnakeStudios:ServerNPCAPI:v1.0.1')
+    compile('com.github.SnakeStudios:ServerNPCAPI:v1.0.2')
 }
 ```
 
